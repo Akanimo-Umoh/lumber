@@ -8,7 +8,7 @@ export default function Nav() {
           src="/logo.svg"
           width={22}
           height={100}
-          alt="lumber logo"
+          alt="lumber"
           priority
         />
         <p className="text-3xl text-white md:text-4xl font-[family-name:var(--font-ribeye)]">Lumber</p>
