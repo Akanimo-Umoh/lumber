@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        links: "var(--links)",
+        text: "var(--text)",
+        navbg: "var(--nav-bg)",
+        border: "var(--border)",
+        sub: "var(--subHeads)",
       },
     },
   },

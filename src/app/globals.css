@@ -5,12 +5,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --links: #5D5A88;
+  --nav-bg: #1A1A1A;
+  --border: #D4D2E3;
+  --text: #9795B5;
+  --subHeads: #FFDD55;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    /* --links: #5D5A88; */
+    /* --nav-bg: #1A1A1A; */
+    /* --border: #D4D2E3; */
   }
 }
 
@@ -18,4 +26,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  font-family: dmSans;
 }
