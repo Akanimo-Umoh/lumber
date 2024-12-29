@@ -16,10 +16,10 @@ export default function Nav() {
 
       <div className="xl:hidden">
         <Image
-          src="/menu.svg"
+          src="/Menu.svg"
           width={27}
           height={100}
-          alt="open menu"
+          alt="menu"
           priority
         />
       </div>
