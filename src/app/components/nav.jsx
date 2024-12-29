@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Nav() {
   return (
     <nav className="p-6 flex items-center justify-between md:px-[110px] md:bg-navbg">
-      <div className="flex items-center justify-between gap-2">
+      <Link href="/" className="flex items-center justify-between gap-2">
         <Image
           src="/logo.svg"
           width={22}
@@ -12,7 +13,7 @@ export default function Nav() {
           priority
         />
         <p className="text-3xl text-white md:text-4xl font-[family-name:var(--font-ribeye)]">Lumber</p>
-      </div>
+      </Link>
 
       <div className="xl:hidden">
         <Image
