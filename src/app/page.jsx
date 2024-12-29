@@ -47,7 +47,7 @@ export default function Home() {
       width: "18",
     },
     {
-      icon: "/Linkedin.svg",
+      icon: "/LinkedIn.svg",
       iconUrl: "https://linkedin.com",
       name: "linkedin",
       width: "18",
