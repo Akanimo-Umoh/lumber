@@ -1,12 +1,11 @@
 import Image from "next/image";
-import React from "react";
 
 export default function Nav() {
   return (
     <nav className="p-6 flex items-center justify-between md:px-[110px] md:bg-navbg">
       <div className="flex items-center justify-between gap-2">
         <Image
-          src="logo.svg"
+          src="/logo.svg"
           width={22}
           height={100}
           alt="lumber logo"
@@ -17,7 +16,7 @@ export default function Nav() {
 
       <div className="xl:hidden">
         <Image
-          src="menu.svg"
+          src="/menu.svg"
           width={27}
           height={100}
           alt="open menu"

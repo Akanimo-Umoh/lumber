@@ -147,12 +147,12 @@ export default function Home() {
 
           <div className="px-6 mt-4 lg:px-0">
             <p className="text-white text-[14px] leading-6 text-center lg:text-left xl:text-lg xl:leading-[30px] xl:w-[574px]">
-              Meet Lumber , the cutting-edge fintech company revolutionizing payments with our portable,
-              cloud-based device.
+              Meet Lumber , the cutting-edge fintech company revolutionizing
+              payments with our portable, cloud-based device.
             </p>
           </div>
 
-          <div className="mt-[32px] flex items-center justify-center gap-6 lg:justify-start lg:mt-11">
+          <div className="mt-[32px] flex items-center justify-center gap-3 sm:gap-6 lg:justify-start lg:mt-11">
             <a
               href=""
               className="font-bold text-white bg-links py-[18px] px-6 flex items-center justify-between gap-2 rounded-[30px] text-base leading-[18px] xl:px-9 xl:py-6 lg:bg-white lg:text-links lg:rounded-[40px]"
@@ -175,7 +175,7 @@ export default function Home() {
                 priority
               />
             </a>
-            
+
             <a
               href=""
               className="text-links leading-[18px] text-base px-6 py-[18px] border-border rounded-[30px] bg-white lg:rounded-[40px] xl:px-9 xl:py-6 lg:bg-transparent lg:border lg:border-white lg:text-white"
